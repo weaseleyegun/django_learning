@@ -19,6 +19,7 @@ from django.http.response import HttpResponse
 from django.http.response import JsonResponse
 from .views import *
 
+#routing
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", hello_world),
